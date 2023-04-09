@@ -248,7 +248,7 @@ function init(player, OPPONENT){
     // SHOW GAME OVER
     function showGameOver(player){
         let message = player == "tie" ? "Oops No Winner" : "The Winner is";
-        let imgSrc = `img/${player}.png`;
+        let imgSrc = `${player}.png`;
 
         gameOverElement.innerHTML = `
             <h1>${message}</1>
