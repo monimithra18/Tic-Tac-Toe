@@ -17,10 +17,10 @@ function init(player, OPPONENT){
 
     // load X & O images
     const xImage = new Image();
-    xImage.src = "img/X.png";
+    xImage.src = "X.png";
 
     const oImage = new Image();
-    oImage.src = "img/O.png";
+    oImage.src = "O.png";
 
     // Win combinations
     const COMBOS = [
